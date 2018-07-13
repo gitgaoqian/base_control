@@ -1,0 +1,11 @@
+<launch>
+
+  <node pkg="base_control" type="addtwointserver.py" name="additonservice" output="screen">
+  </node>
+
+  <node pkg="base_control" type="addtwointclient.py" name="client" output="screen">
+    <param name="a" value="3" />
+    <param name="b" value="5" />
+  </node>
+
+</launch>

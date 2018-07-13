@@ -1,0 +1,7 @@
+<launch>
+
+<!-- calib linear-->
+ <node pkg="smartcar"
+        type="calib_linear.py" name="calib_linear" >
+  </node>
+</launch>
